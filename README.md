@@ -26,5 +26,7 @@ To ensure it stays connected so you can use it, keep these points in mind:
 Script Lifetime: The controller remains connected only as long as your Python script is running. If the script finishes or you close the terminal, the virtual device will "unplug". 
 (You can also now Ctrl+C to safely disconnect it at CMD window)
 
+P.S: To start VX360-Gamepad python script for example put that script file inside the root of your storage drive then open powershell and type --> python E:\VX360Gamepad.py <-- where is E: change for the correct one for your drive letter and hit ENTER.
+
 Verification: You can verify it is connected by typing joy.cpl into your Windows Run box (Win + R). You should see an Xbox 360 Controller listed there while your script is active.
 Game Detection: Most games will pick up the virtual controller automatically, but some may require you to select "Controller" in their internal settings menus.
